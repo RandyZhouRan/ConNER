@@ -40,4 +40,4 @@ If you find this repository useful, please cite our paper:
 ```
 
 ## Acknowledgements
-The code in this repo has been built upon [pytorch_neural_crf](https://github.com/allanj/pytorch_neural_crf)
+The training code in this repo has been built upon [pytorch-neural-crf](https://github.com/allanj/pytorch_neural_crf)
