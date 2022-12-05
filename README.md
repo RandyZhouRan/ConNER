@@ -1,4 +1,4 @@
-# ConNER: <br/> Consistency Training for Cross-lingual Named Entity Recognition
+# ConNER: Consistency Training <br/> for Cross-lingual Named Entity Recognition
 This repository contains the code for EMNLP 22 paper "ConNER: Consistency Training for Cross-lingual Named Entity Recognition"
 ![alt text](https://github.com/RandyZhouRan/ConNER/blob/main/ConNER.png?raw=true)
 
@@ -23,7 +23,7 @@ To train ConNER on cross-lingual NER (for example, English to German transfer), 
 cd model/En2De
 bash 01_xlmr_train_eval.sh
 ```
-All hyperparameters, such as loss weight coefficients `UDA_W`, `RDROP_W`, batch size `BS` are be specified in the bash script.
+All hyperparameters, such as loss weight coefficients `UDA_W`, `RDROP_W`, batch size `BS` are specified in the bash script.
 
 ## Alignment-free Translation
 Upcoming...
