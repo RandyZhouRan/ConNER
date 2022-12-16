@@ -31,10 +31,10 @@ Upcoming...
 ## Citation
 If you find this repository useful, please cite our paper:
 ```
-@article{zhou2022conner,
+@inproceedings{zhou2022conner,
   title={ConNER: Consistency Training for Cross-lingual Named Entity Recognition},
   author={Zhou, Ran and Li, Xin and Bing, Lidong and Cambria, Erik and Si, Luo and Miao, Chunyan},
-  journal={arXiv preprint arXiv:2211.09394},
+  booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
   year={2022}
 }
 ```
