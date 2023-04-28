@@ -26,7 +26,19 @@ bash 01_xlmr_train_eval.sh
 All hyperparameters, such as loss weight coefficients `UDA_W`, `RDROP_W`, batch size `BS` are specified in the bash script.
 
 ## Alignment-free Translation
-Upcoming...
+Place your Google API key `google_translate.json` under the `translate` directory.
+
+Run the following commands to conduct alignment-free translation on `translate/sample.txt`
+
+```commandline
+cd translate
+python 01_translate.py  # translate unlabeled data
+python 02_clean.py      # cleaning the raw translated data
+python 03_lin2cols.py   # convert inline sentences into CoNLL's two column format
+python 04_col2align.py  # add span alignment indicator
+```
+
+The generated files `unlabel.txt` and `trans.txt` will be used for ConNER training.
 
 ## Citation
 If you find this repository useful, please cite our paper:
